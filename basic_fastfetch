@@ -1,0 +1,98 @@
+{                                                                                                                                                                                                                                                                                                          config.jsonc                                                                                                                                                                                                                                                                                                           Modified  {
+        "logo": {               
+                "source": "/home/path/to/logo",
+                "color": {
+                        "1": "white"
+                }
+        
+        },
+        "display": {u
+                "separator": " : "
+        },
+        "modules": [
+                {
+                        "type": "custom",
+                        "format": "OS info"
+                },
+                {
+                        "type": "custom",
+                        "format":"┌──────────────────────────────────────────────────────────┐"
+                },
+                {
+                        "type": "host",
+                        "key": "Host",
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "os",
+                        "key": "Distro",
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "kernel",
+                        "key": "Kernel",
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "shell",
+                        "key": "Shell",
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "terminal",
+                        "key": "Terminal",
+                        "keyColor": "cyan"
+                },
+                {
+                
+                        "type": "wm",
+                        "key": "WM",
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "custom",
+                        "format": "└──────────────────────────────────────────────────────────┘"
+                },
+                "break",
+                {
+                        "type": "custom",
+                        "format": "monkey@Cryingangel"
+                },
+                {
+                        "type": "custom",
+                        "format": "┌──────────────────────────────────────────────────────────┐"
+                },
+                {
+                        "type": "monitor",
+                        "key": "Monitor",
+                        "format": "{name} {width}x{height} @ {refresh-rate}Hz",
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "cpu",
+                        "key": "CPU",
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "gpu",
+                        "key": "GPU",
+                        "format": "{1} {2} ",                   
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "memory",
+                        "key": "Memory",
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "disk",
+                        "key": "Disk",
+                        "keyColor": "cyan"
+                },
+                {
+                        "type": "custom",
+                        "format": "└──────────────────────────────────────────────────────────┘"
+                }
+        ]
+
+}       
